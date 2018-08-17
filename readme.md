@@ -46,4 +46,15 @@ git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zsh
   chsh -s /usr/bin/zsh
   ```
 
+# * mac安装包管理器 homebrew
 
+ * 包管理器可以省去很多时间去编译安装 这也是必转之处.
+ 
+ ## 安装
+   
+   ```bash
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   ```
+   
+   * 请挂代理 
+ 
