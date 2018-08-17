@@ -9,7 +9,7 @@
 安装powerline字体
 命令提示
 自动补全
-...
+....
 
 #依赖
 请检查是否已经安装git,zsh,oh-my-zsh.
