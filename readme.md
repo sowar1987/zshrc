@@ -18,7 +18,7 @@
 ## 安装oh-my-zsh
 请确保已安装curl    
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 # 安装
 ```bash
@@ -38,6 +38,6 @@ git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zsh
 
 # 默认使用zsh
   
-  `chsh -s /usr/bin/zsh`
+  ```chsh -s /usr/bin/zsh```
 
 
