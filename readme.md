@@ -36,6 +36,8 @@ cd && cd zshconfig.zshrc && mv 使用.zshrc ~/.zshrc && rm ~/zshconfig.zshrc
 git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zshrc && mv 原始.zshrc ~/.zshrc && zsh
 ```
 
-
+# 默认使用zsh
+  
+  `chsh -s /usr/bin/zsh`
 
 
