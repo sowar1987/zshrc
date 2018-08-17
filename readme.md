@@ -41,6 +41,7 @@ git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zsh
 # 默认使用zsh
   
   ```bash  
-  chsh -s /usr/bin/zsh```
+  chsh -s /usr/bin/zsh
+  ```
 
 
