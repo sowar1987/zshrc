@@ -16,7 +16,7 @@
 # 依赖
 请检查是否已经安装git,zsh,oh-my-zsh.  
 大陆用户确保已经使用了代理  
-* 请使用127.0.0.1:1086的socks端口 否则请自行修改 安装.zshrc 中的 ` export all_proxy=127.0.0.1:1086 ` 改成 其他  
+* __请使用127.0.0.1:1086的socks端口 否则请自行修改 安装.zshrc 中的 ` export all_proxy=127.0.0.1:1086 ` 改成 其他 __ 
 ## 安装oh-my-zsh
 请确保已安装curl    
 
@@ -46,7 +46,7 @@ git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zsh
   chsh -s /usr/bin/zsh
   ```
 
-# * mac安装包管理器 homebrew
+# mac安装包管理器 homebrew
 
  * 包管理器可以省去很多时间去编译安装 这也是必转之处.
  
