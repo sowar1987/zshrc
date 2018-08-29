@@ -2,7 +2,7 @@
 在知乎大神的基础上进行修改,配置自己的.zshrc
 ****
 ## 效果
-![Xnip2018-08-29_16-36-40](/Users/yinys/Desktop/git/zshconfig.zshrc/media/Xnip2018-08-29_16-36-40.png)![image-20180829163847602](/Users/yinys/Desktop/git/zshconfig.zshrc/media/image-20180829163847602.png)
+![Xnip2018-08-29_16-36-40](media/Xnip2018-08-29_16-36-40.png)![image-20180829163847602](media/image-20180829163847602.png)
 
 ## 实现的功能
 自动跳转  
