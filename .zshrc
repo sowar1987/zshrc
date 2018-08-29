@@ -1,11 +1,6 @@
 # Antigen: https://github.com/zsh-users/antigen
 ANTIGEN="$HOME/.local/bin/antigen.zsh"
 # alias begin
-alias proxy='export all_proxy=socks5://127.0.0.1:1086'
-alias bidl='annie -c ~/Desktop/cookies -p '
-alias gc='git clone'
-alias mkidr='mkdir'
-alias sayc='say -v Ting-ting'
 
 
 # Initialize command prompt
@@ -19,13 +14,9 @@ export TERM="xterm-256color"
 _INIT_SH_NOFUN=1
 [ -f "$HOME/.local/etc/init.sh" ] && source "$HOME/.local/etc/init.sh"
 
-# exit for non-interactive shell
-[[ $- != *i* ]] && return
 
-# WSL (aka Bash for Windows) doesn't work well with BG_NICE
-[ -d "/mnt/c" ] && [[ "$(uname -a)" == *Microsoft* ]] && unsetopt BG_NICE
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#if you system is macos ,please del the # symbol 
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Initialize antigen
 source "$ANTIGEN"
 
@@ -70,13 +61,13 @@ POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND=''
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='white'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
 #POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='white'
-POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
+POWERLEVEL9K_CONTEXT_TEMPLATE=" %n"
 # 设置 oh-my-zsh powerlevel9k 主题右边元素显示
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs ssh  time)
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=" "
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="➙ "
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="➜  "
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline vcs)
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 # command line左边想显示的内容
@@ -195,4 +186,4 @@ zstyle ':completion:*:complete:-command-:*:*' ignored-patterns '*.pdf|*.exe|*.dl
 zstyle ':completion:*:*sh:*:' tag-order files
 
 
-
+export LSCOLORS=exfxcxdxbxexexaxaxaxax #设置ls颜色 去除背景色

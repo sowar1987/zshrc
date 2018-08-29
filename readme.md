@@ -1,9 +1,8 @@
 # 一键式配置zsh(自用)
-在参考知乎基础上进行修改,配置自己的.zshrc
+在知乎大神的基础上进行修改,配置自己的.zshrc
 ****
 ## 效果
-![](media/15345035811864.jpg)
-![](media/2.png)
+![Xnip2018-08-29_16-36-40](/Users/yinys/Desktop/git/zshconfig.zshrc/media/Xnip2018-08-29_16-36-40.png)![image-20180829163847602](/Users/yinys/Desktop/git/zshconfig.zshrc/media/image-20180829163847602.png)
 
 ## 实现的功能
 自动跳转  
@@ -26,39 +25,19 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-# 安装
+# 安装antigen
 ```bash
-git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zshrc && mv 安装.zshrc ~/.zshrc && zsh
+cd ~ && git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zshrc && mv 安装antigen.zshrc ~/.zshrc && zsh
 ```
 # 使用
 安装完成后 请执行 
 
 ```bash
-cd && cd zshconfig.zshrc && mv 使用.zshrc ~/.zshrc && rm ~/zshconfig.zshrc 
+cd && cd zshconfig.zshrc && mv .zshrc ~/.zshrc 
 ```
 
 ## 如果你觉得麻烦请执行(忽略以上两条代码)
 ```bash
 git clone https://github.com/yiny0liuyin/zshconfig.zshrc.git && cd zshconfig.zshrc && mv 原始.zshrc ~/.zshrc && zsh
 ```
-
-# 默认使用zsh
-
-  ```bash  
-  chsh -s /usr/bin/zsh
-  ```
-
-# mac安装包管理器 homebrew
-
- * 包管理器可以省去很多时间去编译安装 这也是必转之处.
-
- ## 安装
-
-   ```bash
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-   ```
-
-   * 请挂代理 
-
-
 
